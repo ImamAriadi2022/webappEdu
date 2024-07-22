@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Course App</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Online Course App</h1>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="navigate('home')">Home</a></li>
+                <li><a href="#" onclick="navigate('profile')">Profile</a></li>
+                <li><a href="#" onclick="navigate('modules')">Modules</a></li>
+                <li><a href="#" onclick="navigate('assignments')">Assignments</a></li>
+                <li><a href="#" onclick="navigate('quizzes')">Quizzes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main-content">
+        <!-- Dynamic content will be loaded here -->
+    </main>
+    <script src="js/app.js"></script>
+    <script src="js/quizzes.js"></script>
+</body>
+</html>
